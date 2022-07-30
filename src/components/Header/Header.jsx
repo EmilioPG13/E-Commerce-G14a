@@ -19,12 +19,12 @@ const Header = () => {
 
       <div className='header-container'>
         <div className='first-header'>
-          <h2>FREE SHIPPING - DELIVERYS BETWEEN 1 & 3 DAYS.</h2>
+          <h2 className='delivery-title'>FREE SHIPPING - DELIVERYS BETWEEN 1 & 3 DAYS.</h2>
         </div>
         <div className='navbar is-primary'>
           <div className='navbar-brand'>
             <Link to='/Home'>
-              <img className='logo-header' img src={logo} alt='logo' /> 
+              <img className='logo-header' img src={logo} alt='logo' />
             </Link>
             <div className='input-box'>
               <div className='main-input'>
@@ -55,7 +55,7 @@ const Header = () => {
                           <li className='nav-items'>Logout</li>
                         </Link>
                         <Link to='/compras'>
-                          <box-icon name='shopping-bag' color='#fffefe' />
+                          <li className='nav-items'><box-icon name='shopping-bag' color='#fffefe' /></li>
                         </Link>
                       </>
                       )
